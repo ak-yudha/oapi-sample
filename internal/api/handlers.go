@@ -3,7 +3,6 @@ package api
 import (
 	"errors"
 	"net/http"
-	"strconv"
 
 	"github.com/auliayudha/oapi-sample/internal/gen"
 	"github.com/auliayudha/oapi-sample/internal/repository"

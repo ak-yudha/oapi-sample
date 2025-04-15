@@ -30,9 +30,9 @@ func main() {
 	dbConfig := db.Config{
 		Host:     getEnv("DB_HOST", "localhost"),
 		Port:     getEnv("DB_PORT", "5432"),
-		User:     getEnv("DB_USER", "postgres"),
-		Password: getEnv("DB_PASSWORD", "postgres"),
-		DBName:   getEnv("DB_NAME", "userdb"),
+		User:     getEnv("DB_USER", "auliayudha"),
+		Password: getEnv("DB_PASSWORD", ""),
+		DBName:   getEnv("DB_NAME", "openapi"),
 		SSLMode:  getEnv("DB_SSLMODE", "disable"),
 	}
 

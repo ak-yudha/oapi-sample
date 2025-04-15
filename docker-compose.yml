@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: userdb
+      POSTGRES_USER: auliayudha
+      POSTGRES_PASSWORD:
+      POSTGRES_DB: openapi
     ports:
       - "5432:5432"
     volumes:
